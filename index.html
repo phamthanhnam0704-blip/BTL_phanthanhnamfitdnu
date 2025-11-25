@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GYM POWER - Trang Chủ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo"><a href="index.html">GYM POWER</a></div>
+        <nav class="main-nav">
+    <ul class="nav-list">
+        <li><a href="index.html">Trang Chủ</a></li>
+        <li><a href="services.html">Dịch Vụ</a></li>
+        <li><a href="schedule.html">Lịch Tập</a></li>
+        <li><a href="pricing.html">Gói Tập</a></li>
+        <li><a href="contact.html" class="cta-nav">Đăng Ký</a></li>
+    </ul>
+</nav>
+        <button class="menu-toggle" aria-label="Toggle navigation" id="menu-toggle">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="hero-content">
+            <p class="hero-subtitle">Bắt đầu hành trình của bạn ngay hôm nay</p>
+            <h1 class="hero-title">ĐỊNH HÌNH PHONG CÁCH SỐNG KHỎE MẠNH</h1>
+            <a href="pricing.html" class="cta-button">TẬP THỬ MIỄN PHÍ</a>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+    <h2>LIÊN HỆ ĐĂNG KÝ TẬP THỬ</h2>
+    <p>Điền thông tin của bạn và chúng tôi sẽ gọi lại tư vấn miễn phí.</p>
+
+    <div class="contact-container">
+        <!-- Form đăng ký -->
+        <form class="contact-form">
+            <input type="text" placeholder="Họ và tên" required>
+            <input type="tel" placeholder="Số điện thoại" required>
+            <input type="email" placeholder="Email (không bắt buộc)">
+            <textarea placeholder="Mục tiêu tập luyện / Ghi chú"></textarea>
+            <button type="submit">Gửi đăng ký</button>
+        </form>
+
+        <!-- Thông tin phòng gym -->
+        <div class="contact-info">
+            <h3>GYM POWER</h3>
+            <p>🏋  An Khánh Hoài Đức Hà Nội</p>
+            <p>📞  0867910407</p>
+            <p>✉  phamthanhnam0704@gmail.com</p>
+
+            <h4>Giờ mở cửa</h4>
+            <p>Thứ 2 – Chủ nhật: 05:00 – 22:30</p>
+        </div>
+    </div>
+    <!-- Google Map -->
+    <iframe 
+        class="contact-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.540158347514!2d106.68220881526087!3d10.771545792327775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f306993f52b%3A0x37ff6f7b6137e62e!2zQ-G7pW0gUG93ZXI!5e0!3m2!1svi!2s!4v1700000000000"
+        allowfullscreen=""
+        loading="lazy">
+    </iframe>
+</section>
+
+
+    <main>
+        <section class="overview">
+            <div class="container">
+                <h2>Về chúng tôi</h2>
+                <p>GYM POWER — nơi bạn hình thành thói quen khỏe mạnh cùng huấn luyện viên chuyên nghiệp và không gian luyện tập đầy đủ trang thiết bị.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Dịch vụ nổi bật</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Huấn luyện 1:1</h3>
+                        <p>Chương trình cá nhân hóa theo mục tiêu của bạn.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Lớp nhóm</h3>
+                        <p>Cardio, HIIT, Yoga — đa dạng lớp cho mọi trình độ.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Đánh giá thể lực</h3>
+                        <p>Kiểm tra và lên kế hoạch tập luyện khoa học.</p>
+                    </article>
+                </div>
+                <p style="text-align:center;margin-top:16px;"><a href="services.html" class="cta-button">Xem tất cả dịch vụ</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> GYM POWER. Mọi quyền được bảo đảm.</p>
+        </div>
+    </footer>
+</body>
+</html>

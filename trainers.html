@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>GYM POWER - Huấn Luyện Viên</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo"><a href="index.html">GYM POWER</a></div>
+        <nav class="main-nav" id="main-nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="services.html">Dịch Vụ</a></li>
+                <li><a href="schedule.html">Lịch Tập</a></li>
+                <li><a href="pricing.html">Gói Tập</a></li>
+                <li><a href="trainers.html">Huấn Luyện Viên</a></li>
+                <li><a href="contact.html" class="cta-nav">Đăng Ký</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation" id="menu-toggle">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+    </header>
+
+    <main class="page-content">
+        <section class="container">
+            <h1>Huấn Luyện Viên</h1>
+            <div class="trainers-grid">
+                <article class="trainer">
+                    <div class="avatar">IMG</div>
+                    <h3>Nguyễn Văn A</h3>
+                    <p>Chuyên gia thể hình & dinh dưỡng.</p>
+                </article>
+                <article class="trainer">
+                    <div class="avatar">IMG</div>
+                    <h3>Trần Thị B</h3>
+                    <p>Chuyên HIIT & phục hồi chấn thương.</p>
+                </article>
+                <article class="trainer">
+                    <div class="avatar">IMG</div>
+                    <h3>Phạm C</h3>
+                    <p>Huấn luyện viên Yoga & Mobility.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; <span id="year5"></span> GYM POWER.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>document.getElementById('year5').textContent = new Date().getFullYear();</script>
+</body>
+</html>
